@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #80A7B9;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    /*background-image: url("../img/slider-img-1.jpg");*/
+    background-size: cover;
+    background-repeat: none;
+}
+
+.wrapper {
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+table#favMovies {
+    margin: 0;
+}
+
+#favMovies tr td:last-child {
+    width: 20%;
+    text-align: center;
+}
+
+h1,
+.h1 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.navbar.navbar-default {
+    margin-top: 20px !important;
+}
